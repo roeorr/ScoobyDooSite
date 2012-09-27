@@ -7,4 +7,10 @@ body {
  	 padding: 0;
  	 margin: 0;
 	}
+	
+nav{
+	width: 200px;
+	height: 500px;
+	background: #660099 url(backgrounds/scooby.png) no-repeat;
+	}
 		
