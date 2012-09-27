@@ -15,4 +15,8 @@ nav{
 	height: 500px;
 	background: #660099 url(backgrounds/scooby.jpg) no-repeat;
 	}
+	
+nav, header, #bodycontent{
+	position:absolute;
+	}
 		
