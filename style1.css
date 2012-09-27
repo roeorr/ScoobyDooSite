@@ -19,4 +19,28 @@ nav{
 nav, header, #bodycontent{
 	position:absolute;
 	}
+	
+a {
+	font-weight: bold;
+	color: grey;
+  }
+
+a:link{
+		color: grey;
+	   }
+		
+a:visited{
+		   color: white;
+		 }
+		   
+a:hover {
+  text-decoration: none;
+  color: yellow;
+  background-color: black;
+}
+
+a:active {
+  color: green;
+  background-color: yellow;
+}
 		
