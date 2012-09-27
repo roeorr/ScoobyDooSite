@@ -13,7 +13,7 @@ body {
 nav{
 	width: 200px;
 	height: 500px;
-	background: #660099 url(backgrounds/scooby.jpg) no-repeat;
+	background: #660099 url(backgrounds/scooby.png) no-repeat;
 	}
 	
 nav, header, #bodycontent{
