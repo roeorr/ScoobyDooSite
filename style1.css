@@ -43,4 +43,8 @@ a:active {
   color: green;
   background-color: yellow;
 }
+
+li {
+	list-style-type: none;
+	}
 		
