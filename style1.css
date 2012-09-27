@@ -1,5 +1,6 @@
 /*CSS for ScoobyDoo Site*/
 
+/*this section deals with the entire body of website*/
 body {
 	font-family: Arial, Verdana, Helvetica, sans-serif;
 	background-color: #996699;
@@ -7,10 +8,11 @@ body {
  	 padding: 0;
  	 margin: 0;
 	}
-	
+
+/*this section deals with main navigation of website*/	
 nav{
 	width: 200px;
 	height: 500px;
-	background: #660099 url(backgrounds/scooby.png) no-repeat;
+	background: #660099 url(backgrounds/scooby.jpg) no-repeat;
 	}
 		
