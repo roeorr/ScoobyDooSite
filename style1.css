@@ -96,16 +96,20 @@ p{
 	margin: 0;
 	}
 	   
-.indeximage{
-	float: right;
-	margin: 15px;
-}
+
 
 footer {
-	top: 700px;
+	top: 800px;
 	text-align: center;
 	width:100%;
 	}
+	
+/*This section deals with images*/
+
+.imagefeature{
+	float: right;
+	margin: 15px;
+}
 
 	
 
