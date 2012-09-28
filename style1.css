@@ -15,11 +15,8 @@ nav{
 	height: 500px;
 	background: #660099 url(backgrounds/scooby.png) no-repeat;
 	}
-	
-nav, header, #bodycontent{
-	position:absolute;
-	}
-	
+
+/*This section deals with the style of the anchors*/	
 a {
 	font-weight: bold;
 	color: grey;
@@ -44,7 +41,25 @@ a:active {
   background-color: yellow;
 }
 
+/*Deals with the style of the lists*/
 li {
 	list-style-type: none;
 	}
+/*This section deals with absolute positioning */
+nav, header, #indexbody{
+	position:absolute;
+	}
+	
+header {
+	width: 100%;
+	border-top: 1px solid #996699;
+	}
+	
+nav, #indexbody{
+	top: 100px;
+	}
+	
+
+	
+	
 		
