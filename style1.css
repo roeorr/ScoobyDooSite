@@ -46,7 +46,7 @@ li {
 	list-style-type: none;
 	}
 /*This section deals with absolute positioning */
-nav, header, #indexbody{
+nav, header, #bodycontent{
 	position:absolute;
 	}
 	
@@ -55,11 +55,11 @@ header {
 	border-top: 1px solid #996699;
 	}
 	
-nav, #indexbody{
+nav, #bodycontent{
 	top: 100px;
 	}
 
-#indexbody{
+#bodycontent{
 	left: 220px;
 	}
 	
