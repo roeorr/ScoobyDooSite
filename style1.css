@@ -56,13 +56,22 @@ header {
 	}
 	
 nav, #bodycontent{
-	top: 100px;
+	top: 230px;
 	}
 
 #bodycontent{
 	left: 220px;
 	}
 	
+h1 {
+	font-size: 30px;
+	color: black;
+	padding-top: 180px;
+	padding-bottom: 3px;
+	padding-left: 6px;
+	margin: 0;
+	background: orange url(backgrounds/scooby_shaggy_fred.jpg) repeat-y center;
+}
 	
 
 	
