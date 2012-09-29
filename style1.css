@@ -75,6 +75,10 @@ h1 {
 	background: orange url(backgrounds/scooby_shaggy_fred.jpg) repeat-y center;
 }
 
+h3 {
+	font-size:15px;
+	}
+
 p{
 	font-size: normal;
 	color; orange;
