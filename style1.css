@@ -13,6 +13,7 @@ body {
 nav{
 	width: 200px;
 	height: 500px;
+	margin-top: 2px;
 	background: #660099;
 	}
 	
@@ -23,13 +24,16 @@ ul {
 	padding-left: 0;
 	text-align: center;
 	margin: 0;
-	background-size: 200px 161px;
-	background-image:  url(backgrounds/nav_list_gradient.jpg);
+	
 	
 	}
 	
 li{
-	padding: 0;
+	padding: 0px;
+	margin-bottom: 1px;
+	border-radius: 10px;
+	background-size: 200px 35px;
+	background-image:  url(backgrounds/nav_list_gradient.jpg);
 	}
 
 /*---------This section deals with the style of the anchors----------*/	
