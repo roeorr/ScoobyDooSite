@@ -30,7 +30,7 @@ ul {
 	
 li{
 	padding: 0px;
-	margin-bottom: 1px;
+	margin-bottom: 4px;
 	border-radius: 10px;
 	background-size: 200px 35px;
 	background-image:  url(backgrounds/nav_list_gradient.jpg);
@@ -38,7 +38,7 @@ li{
 
 /*---------This section deals with the style of the anchors----------*/	
 a {
-	font-weight: bold;
+	font: 30px/1.5 bold;
 	height: 40px;
 	color: #00ff00;
 	text-decoration: none;
