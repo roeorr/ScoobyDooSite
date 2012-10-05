@@ -23,30 +23,25 @@ ul {
 	width: 200px;
 	padding-left: 0;
 	text-align: center;
-	margin: 0;
-	
-	
-	}
-	
-li{
-	padding: 0px;
-	margin-bottom: 4px;
 	border-radius: 10px;
 	background-size: 200px 35px;
-	background-image:  url(backgrounds/nav_list_gradient.jpg);
+	background-image:  url(images/nav_list_gradient.jpg);
+}
+
+ul a{
+	display: block
 	}
 
 /*---------This section deals with the style of the anchors----------*/	
 a {
-	font: 30px/1.5 bold;
+	font: 27px/1.5 bold;
 	height: 40px;
 	color: #00ff00;
 	text-decoration: none;
-	display: block;
   }
 		
 a:visited{
-    color: #orange;
+    color: orange;
  }
 		   
 a:hover {
@@ -79,14 +74,14 @@ nav, .bodycontent{
 	}
 	
 h1 {
-	font-size: 30px;
+	font-size: 40px;
 	text-align: left;
 	color: #330066;
 	padding-top: 180px;
 	padding-bottom: 8px;
-	padding-left: 19px;
+	padding-left: 17px;
 	margin: 0;
-	background: orange url(backgrounds/scooby_shaggy_fred.jpg) repeat-y center;
+	background: orange url(images/scooby_shaggy_fred.jpg) repeat-y center;
 }
 
 h3 {
@@ -124,7 +119,6 @@ footer {
 
 .guysphotos img{
 	border: dotted 10px orange;
-	padding 5px;
 	}
 
 	
@@ -132,6 +126,20 @@ h1, h2 {
 	font-family: "Griffy", Arial, sans-serif;
 	}
 
-
-
+ol{
+	list-style-type: none;
+	border: 3px solid yellow;
+	float: right;
+	margin: 15px;
+	height: 175px;
+	width: 350px;
+	overflow: hidden;
+	}
+	
+ol li{
+	float: left;
+	margin-top: 5px;
+	margin-left:20px;
+	padding: 0;
+	}
 	
