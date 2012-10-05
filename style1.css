@@ -18,7 +18,7 @@ nav{
 	}
 	
 /*-------------Deals with the style of the lists--------------*/
-ul {
+.navigation {
 	list-style-type: none;
 	width: 200px;
 	padding-left: 0;
@@ -28,7 +28,7 @@ ul {
 	background-image:  url(images/nav_list_gradient.jpg);
 }
 
-ul a{
+.navigation a{
 	display: block
 	}
 
@@ -38,6 +38,7 @@ a {
 	height: 40px;
 	color: #00ff00;
 	text-decoration: none;
+	display: block;
   }
 		
 a:visited{
@@ -126,20 +127,26 @@ h1, h2 {
 	font-family: "Griffy", Arial, sans-serif;
 	}
 
-ol{
+.imagegallery{
 	list-style-type: none;
 	border: 3px solid yellow;
 	float: right;
 	margin: 15px;
-	height: 175px;
-	width: 350px;
+	padding: 0;
+	height: 350px;
+	width: 400px;
 	overflow: hidden;
 	}
 	
-ol li{
+.imagegallery li{
 	float: left;
-	margin-top: 5px;
+	margin-top: 15px;
 	margin-left:20px;
 	padding: 0;
 	}
+
+.imagegallery a{
+	border: 2px dotted orange;
+	height:150px;
+}
 	
