@@ -134,7 +134,7 @@ h1, h2 {
 	margin: 15px;
 	padding: 0;
 	height: 350px;
-	width: 400px;
+	width: 283px;
 	overflow: hidden;
 	}
 	
@@ -146,7 +146,7 @@ h1, h2 {
 	}
 
 .imagegallery a{
-	border: 2px dotted orange;
+	border: 4px dotted orange;
 	height:150px;
 }
 	
