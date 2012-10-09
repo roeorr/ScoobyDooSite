@@ -39,13 +39,9 @@ nav{
 	background-image:  url(images/nav_list_gradient.jpg);
 }
 
-.navigation a{
-	display: block;
-	}
-
 /*---------This section deals with the style of the anchors----------*/	
 a {
-	font: 168.75%/1.5 bold; /* 27px/16px */
+	font: 112.5%/1.5 bold; /* 18px/16px */
 	height: 250%; /* 40px/16px */
 	color: #00ff00;
 	text-decoration: none;
@@ -70,6 +66,9 @@ a:active {
 /*-----------This section deals with positioning */
 	
 header {
+	font-size: 100%; /* 16px/16px */
+	text-align: left;
+	color: #330066;
 	width: 100%; /* 960px/960px */
 	float: left;
 	}
@@ -80,9 +79,6 @@ header {
 	}
 
 h1 {
-	font-size: 250%; /* 40px/16px */
-	text-align: left;
-	color: #330066;
 	padding-top: 180px;
 	padding-bottom: 8px;
 	padding-left: 17px;
