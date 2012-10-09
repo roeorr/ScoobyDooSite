@@ -70,7 +70,7 @@ a:active {
 /*-----------This section deals with positioning */
 	
 header {
-	width: 960px;
+	width: 100%; /* 960px/960px */
 	float: left;
 	}
 .bodycontent{
