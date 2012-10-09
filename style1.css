@@ -7,6 +7,10 @@ body {
  	 margin: 0 auto;
  	 max-width: 960px;
 	}
+	
+h1, h2 {
+	font-family: "Griffy", Arial, sans-serif;
+	}
 
 /*this section deals with main navigation of website*/	
 nav{
@@ -124,11 +128,6 @@ footer {
 
 .guysphotos img{
 	border: dotted 10px orange;
-	}
-
-	
-h1, h2 {
-	font-family: "Griffy", Arial, sans-serif;
 	}
 
 .imagegallery{
