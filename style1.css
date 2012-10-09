@@ -80,13 +80,13 @@ header {
 	}
 
 h1 {
-	font-size: 40px;
+	font-size: 250%; /* 40px/16px */
 	text-align: left;
 	color: #330066;
 	padding-top: 180px;
 	padding-bottom: 8px;
 	padding-left: 17px;
-	margin: 0;
+	margin: 0%;
 	background: orange url(images/scooby_shaggy_fred.jpg) repeat-y center;
 }
 
