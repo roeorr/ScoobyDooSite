@@ -17,19 +17,23 @@ nav{
 	background: #660099;
 	}
 	
-/*-------------Deals with the style of the lists--------------*/
 .navigation {
 	list-style-type: none;
 	width: 200px;
 	padding-left: 0;
 	text-align: center;
+	display: block;
+}
+
+.navigation li{
+	margin-bottom: 4px;
 	border-radius: 10px;
 	background-size: 200px 35px;
 	background-image:  url(images/nav_list_gradient.jpg);
 }
 
 .navigation a{
-	display: block
+	display: block;
 	}
 
 /*---------This section deals with the style of the anchors----------*/	
