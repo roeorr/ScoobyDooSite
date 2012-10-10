@@ -24,6 +24,7 @@ nav{
 	
 .navigation {
 	list-style-type: none;
+	width: 100%;
 	padding-left: 0%; /* 0/200px */
 	padding-top: 0%; /* 0/200px */
 	padding-bottom: 100%; /* 200px/200px */
@@ -94,8 +95,8 @@ h3 {
 	font: 1.25em bold Helvetica, "Times New Roman", serif;;
 	background-color: #6600ff;
 	width: 100%; 
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
+	border-top: .0625em solid white;
+	border-bottom: .0625em solid white;
 	padding: .4166666666667% 0%; /* 4px/960px */
 	margin: 0%;
 	}
@@ -107,7 +108,7 @@ footer {
 	float: none;
 	padding-top: 3.125%; /* 30px/960px */
 	text-align: center;
-	width:100%;
+	width: 100%;
 	}
 	
 /*This section deals with images*/
@@ -127,28 +128,24 @@ article img{
 	list-style-type: none;
 	border: .1875em solid yellow; /* 3px/16px */
 	float: right;
-	margin: 1.9867549668874%; /* 15px/755px */
-	padding: .7067137809187%; /* 2px283px */
-	width: 37.483444%; /* 283px/755px */
-	overflow: hidden;
+	margin-left: 1.9867549668874%; /* 15px/755px */
+	padding-left: 10px;
+	width: 46.3576158940397%; /* 350px/755px */
 	}
 	
 .imagegallery li{
+	padding: 2.2857142857143%; /* 8px/350px */
 	float: left;
-	width: 15%;
-	margin-top: 5.3003533568905%; /* 15px/283px */
-	margin-left: 7.0671378091873%; /* 20px/283px */
-	padding: 2px;
+	width: 42.8571428571429%; /* 150px/350px */
 	}
 
 .imagegallery a{
-	border: 4px dotted orange;
-	padding: 0%;
-	width: 100%;
+	border: .25em dotted orange;	
+	padding: 0;
+	margin: 0;
 }
 
 .imagegallery img{
-	padding-top: 12%;
 	max-width: 100%;
 }
 	
