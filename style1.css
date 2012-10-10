@@ -114,7 +114,7 @@ footer {
 
 .imagefeature{
 	float: right;
-	margin: 15px;
+	margin: 1.9867549668874%; /*15px;*/
 	border: dotted .625em orange;
 	width: 40.2649006622517%; /* 304px/755px */
 }
@@ -128,17 +128,17 @@ article img{
 	border: .1875em solid yellow; /* 3px/16px */
 	float: right;
 	margin: 1.9867549668874%; /* 15px/755px */
-	padding: 0;
+	padding: .7067137809187%; /* 2px283px */
 	width: 37.483444%; /* 283px/755px */
 	overflow: hidden;
 	}
 	
 .imagegallery li{
 	float: left;
-	width: 20%;
+	width: 15%;
 	margin-top: 5.3003533568905%; /* 15px/283px */
 	margin-left: 7.0671378091873%; /* 20px/283px */
-	padding: 0;
+	padding: 2px;
 	}
 
 .imagegallery a{
@@ -148,7 +148,7 @@ article img{
 }
 
 .imagegallery img{
-	padding-top: 10%;
+	padding-top: 12%;
 	max-width: 100%;
 }
 	
