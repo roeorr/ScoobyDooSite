@@ -66,7 +66,7 @@ a:active {
 /*-----------This section deals with positioning */
 	
 header {
-	font-size: 100%; /* 16px/16px */
+	font-size: 1em; /* 16px/16px */
 	text-align: left;
 	color: #330066;
 	width: 100%; /* 960px/960px */
@@ -129,18 +129,18 @@ footer {
 	list-style-type: none;
 	border: 3px solid yellow;
 	float: right;
-	margin: 15px;
+	margin: 1.9867549668874%; /* 15px/755px */
 	padding: 0%;
-	height: 355px;
-	width: 37.48%; /* 283px/755px */
+	height: 47.0198675496689%; /* 355px/755px */
+	width: 37.483444%; /* 283px/755px */
 	overflow: hidden;
 	}
 	
 .imagegallery li{
 	float: left;
-	margin-top: 15px;
-	margin-left:20px;
-	padding: 0;
+	margin-top: 5.3003533568905%; /* 15px/283px */
+	margin-left: 7.0671378091873%; /* 20px/283px */
+	padding: 0%;
 	}
 
 .imagegallery a{
