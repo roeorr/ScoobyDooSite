@@ -33,7 +33,7 @@ nav{
 
 .navigation li{
 	margin-bottom: 2%; /* 4px/200px */
-	border-radius: 10px;
+	border-radius: 50%;
 	background-size: 200px 35px;
 	background-image:  url(images/nav_list_gradient.jpg);
 }
@@ -114,7 +114,7 @@ footer {
 
 .imagefeature{
 	float: right;
-	margin: 1.9867549668874%; /*15px;*/
+	margin: 1.9867549668874%; /* 15px/755px */
 	border: dotted .625em orange;
 	width: 40.2649006622517%; /* 304px/755px */
 }
