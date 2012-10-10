@@ -2,7 +2,7 @@
 
 /*--------this section deals with the entire body of website-----------*/
 body {
-	 font: 1em/1.25em Verdana, Helvetica, sans-serif;
+	 font: 100%/1.25 Verdana, Helvetica, sans-serif;
 	 background-color: #996699;
  	 padding: 0%;
  	 margin: 0% auto;
@@ -24,7 +24,6 @@ nav{
 	
 .navigation {
 	list-style-type: none;
-	width: 100%; /* 200px/200px */
 	padding-left: 0%; /* 0/200px */
 	padding-top: 0%; /* 0/200px */
 	padding-bottom: 100%; /* 200px/200px */
@@ -41,8 +40,7 @@ nav{
 
 /*---------This section deals with the style of the anchors----------*/	
 a {
-	font: 1.125em/1.5em bold; /* 18px/16px */
-	height: 250%; /* 40px/16px */
+	font: 1.125em/1.5 bold; /* 18px/16px */
 	color: #00ff00;
 	text-decoration: none;
 	display: block;
@@ -79,29 +77,27 @@ header {
 	}
 
 h1 {
-	padding-top: 180px;
-	padding-bottom: 8px;
-	padding-left: 17px;
+	padding-top: 15.625%; /* 150px/960px*/
+	padding-left: 1.770833%; /* 17px/960px*/
+	padding-bottom: 0%;
 	margin: 0%;
-	background: orange url(images/scooby_shaggy_fred.jpg) repeat-y center;
+	background: orange url(images/scooby_shaggy_fred.jpg) no-repeat center;
 }
 
 h3 {
-	font-size:15px;
+	font-size: .9375em; /* 15px/16px */
 	}
 
 #tagline p{
 	color: #ffffff;
 	text-align: center;
-	font: 20px bold Helvetica, "Times New Roman", serif;;
+	font: 1.25em bold Helvetica, "Times New Roman", serif;;
 	background-color: #6600ff;
-	height: 23px; 
+	width: 100%; 
 	border-top: 1px solid white;
 	border-bottom: 1px solid white;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	padding-left: 14px;
-	margin: 0;
+	padding: .4166666666667% 0%; /* 4px/960px */
+	margin: 0%;
 	}
 	   
 
@@ -109,7 +105,7 @@ h3 {
 footer {
 	clear: both;
 	float: none;
-	padding-top: 30px;
+	padding-top: 3.125%; /* 30px/960px */
 	text-align: center;
 	width:100%;
 	}
@@ -119,32 +115,40 @@ footer {
 .imagefeature{
 	float: right;
 	margin: 15px;
+	border: dotted .625em orange;
+	width: 40.2649006622517%; /* 304px/755px */
 }
 
-.guysphotos img{
-	border: dotted 10px orange;
-	}
+article img{
+	max-width: 100%;
+}
 
 .imagegallery{
 	list-style-type: none;
-	border: 3px solid yellow;
+	border: .1875em solid yellow; /* 3px/16px */
 	float: right;
 	margin: 1.9867549668874%; /* 15px/755px */
-	padding: 0%;
-	height: 47.0198675496689%; /* 355px/755px */
+	padding: 0;
 	width: 37.483444%; /* 283px/755px */
 	overflow: hidden;
 	}
 	
 .imagegallery li{
 	float: left;
+	width: 20%;
 	margin-top: 5.3003533568905%; /* 15px/283px */
 	margin-left: 7.0671378091873%; /* 20px/283px */
-	padding: 0%;
+	padding: 0;
 	}
 
 .imagegallery a{
 	border: 4px dotted orange;
-	height:150px;
+	padding: 0%;
+	width: 100%;
+}
+
+.imagegallery img{
+	padding-top: 10%;
+	max-width: 100%;
 }
 	
