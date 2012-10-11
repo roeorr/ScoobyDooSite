@@ -293,7 +293,8 @@ article img{
 		}
 		
 		.bodycontent{
-			margin-left: 3px;
+			margin: 0;
+			padding: 0;
 			width: 100%;
 		}
 		
