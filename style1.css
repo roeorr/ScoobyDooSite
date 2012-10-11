@@ -222,6 +222,7 @@ article img{
 		}
 		
 		.bodycontent{
+			margin: 0;
 			width: 100%;
 		}
 		
@@ -238,8 +239,9 @@ article img{
 			clear: both;
 			border: .1875em solid yellow; /* 3px/16px */	
 	 		float: none; 
-	 		width: 100%;
-	 		margin: 2px auto;
+	 		width: 95%;
+	 		padding: 0;
+	 		margin: 0 auto;
 	 		overflow: hidden;
 	 	}
 	 	
