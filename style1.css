@@ -135,7 +135,7 @@ article img{
 	}
 	
 .imagegallery li{
-	padding: 5px 2%; /* 8px/350px */
+	padding: 1.428% 2%; /* 8px/350px */
 	float: left;
 	width: 42.8571428571429%; /* 150px/350px */
 	}
@@ -190,6 +190,8 @@ article img{
 			font-size: 1.5em;
 			text-align: center;
 			color: black;
+			border-bottom: 2px solid black;
+			margin-bottom: 1px;
 		}
 		
 		h1{
@@ -199,12 +201,54 @@ article img{
 	 	}
 		
 		#tagline p{
-			font-size: .5em;
-			background-color: black;
+			display: none;
 		}
+		
+		nav{
+			float: none;
+			width: 100%;
+			background: none;
+		}
+		
+		.navigation{
+			padding: 0;
+			background: repeat-y;
+		}
+		
+		.navigation li{
+			background: black;
+			margin-bottom: 1px;
+			border-radius: 0;
+		}
+		
+		.bodycontent{
+			width: 100%;
+		}
+		
+		h2 {
+			font-size: 2em;
+			text-align: center;
+		}
+		
+		h3{
+			display: none;
+		}
+		
 		.imagegallery{
-	 		padding-right: 0;
-	 		margin-right: 1%;	 	
+			clear: both;
+			border: .1875em solid yellow; /* 3px/16px */	
+	 		float: none; 
+	 		width: 100%;
+	 		margin: 2px auto;
+	 		overflow: hidden;
+	 	}
+	 	
+	 	.imagegallery li{
+	 		width: 19.5%;
+	 	}
+	 	
+	 	.multi_column{
+	 		clear: both;
 	 	}
 	
 	}
