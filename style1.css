@@ -34,7 +34,7 @@ nav{
 
 .navigation li{
 	margin-bottom: 2%; /* 4px/200px */
-	border-radius: 50%;
+	border-radius: 10%;
 	background-size: 200px 35px;
 	background-image:  url(images/nav_list_gradient.jpg);
 }
