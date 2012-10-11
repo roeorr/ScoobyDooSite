@@ -185,7 +185,7 @@ article img{
 	 	}
 	}
 	/* Mobile landscape size to tablet portrait (devices and browsers)*/
-	@media only screen (min-width: 480px) and (max-width: 767px){
+	@media screen and (min-width: 480px) and (max-width: 767px){
 		header{
 			font-size: 2em;
 			text-align: center;
