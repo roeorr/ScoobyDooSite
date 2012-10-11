@@ -297,6 +297,9 @@ article img{
 			padding: 0;
 			width: 100%;
 		}
+		.bodycontent p{
+			padding: 3px;
+		}
 		
 		h2 {
 			font-size: 1.5em;
