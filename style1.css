@@ -154,8 +154,14 @@ article img{
 	font-size: 1em;
 	-moz-column-count: 3;
 	-webkit-column-count: 3;
+	-ms-column-count: 3;
+	-o-column-count: 3;
+	column-count: 3;
 	-moz-column-gap: 1.3%;
-	-webkit-column-gap: 10px;
+	-webkit-column-gap: 1.3%;
+	-ms-column-gap: 1.3%;
+	-o-column-gap: 1.3%;
+	column-gap: 1.3%;
 	text-align: left;
 }
 /*--------------- Media Querries------------*/
@@ -251,6 +257,11 @@ article img{
 	 	
 	 	.multi_column{
 	 		clear: both;
+	 		-moz-column-count: 1;
+			-webkit-column-count: 1;
+			-ms-column-count: 1;
+			-o-column-count: 1;
+			column-count: 1; 		
 	 	}
 	
 	}
@@ -331,6 +342,11 @@ article img{
 	 	
 	 	.multi_column{
 	 		clear: both;
+	 		-moz-column-count: 1;
+			-webkit-column-count: 1;
+			-ms-column-count: 1;
+			-o-column-count: 1;
+			column-count: 1;
 	 	}
 
 	}
