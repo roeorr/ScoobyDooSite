@@ -321,7 +321,12 @@ article img{
 	 	}
 	 	
 	 	.imagegallery li{
-	 		width: 19.5%;
+	 		width: 94%;
+	 		float: none;
+	 	}
+	 	
+	 	.imagegallery img{
+	 		width: 100%;
 	 	}
 	 	
 	 	.multi_column{
