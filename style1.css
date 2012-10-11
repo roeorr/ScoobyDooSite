@@ -162,11 +162,31 @@ article img{
 
 	/* Tablet portrait style to standard 960 (devices and browsers) */
 	@media screen and (min-width: 768px) and (max-width: 959px){
-				#tagline {background-color: black;}
-	}
+		header{
+			font-size: 2em;
+			text-align: center;
+			color: black;
+		}
+		
+		h1{
+			padding-top: 5%;
+			padding-bottom: 1%;
+			background: orange;
+	 	}
+		
+		#tagline p{
+			font-size: .5em;
+			background-color: black;
+		}
+	
+	 	.imagegallery{
+	 		padding-right: 0;
+	 		margin-right: 1%;	 	
+	 	}
 	
 	/* Mobile landscape size to tablet portrait (devices and browsers)*/
 	@media only screen (min-width: 480px) and (max-width: 767px){
+	
 	}
 	
 	/* Mobile portrait size to mobile landscape size (devices and browsers) */
