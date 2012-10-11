@@ -165,7 +165,7 @@ article img{
 	-webkit-column-gap: 1.3%;
 	-ms-column-gap: 1.3%;
 	-o-column-gap: 1.3%;
-	column-gap: 1.3%;
+	column-gap: 10px;
 	text-align: left;
 }
 /*--------------- Media Querries------------*/
