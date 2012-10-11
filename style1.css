@@ -197,7 +197,7 @@ article img{
 		h1{
 			padding-top: 5%;
 			padding-bottom: 1%;
-			background: green;
+			background: orange;
 	 	}
 		
 		#tagline p{
@@ -257,6 +257,71 @@ article img{
 	
 	/* Mobile portrait size to mobile landscape size (devices and browsers) */
 	@media only screen and (max-width: 479px){
-	
+		header{
+			font-size: 1.2em;
+			text-align: center;
+			color: black;
+			border-bottom: 2px solid black;
+			margin-bottom: 1px;
+		}
+		
+		h1{
+			padding-top: 5%;
+			padding-bottom: 1%;
+			background: orange;
+	 	}
+		
+		#tagline p{
+			display: none;
+		}
+		
+		nav{
+			float: none;
+			width: 100%;
+			background: none;
+		}
+		
+		.navigation{
+			padding: 0;
+			background: repeat-y;
+		}
+		
+		.navigation li{
+			background: black;
+			margin-bottom: 1px;
+			border-radius: 0;
+		}
+		
+		.bodycontent{
+			margin: 0;
+			width: 100%;
+		}
+		
+		h2 {
+			font-size: 1.5em;
+			text-align: center;
+		}
+		
+		h3{
+			display: none;
+		}
+		
+		.imagegallery{
+			clear: both;
+			border: .1875em solid yellow; /* 3px/16px */	
+	 		float: none; 
+	 		width: 95%;
+	 		padding: 0;
+	 		margin: 0 auto;
+	 		overflow: hidden;
+	 	}
+	 	
+	 	.imagegallery li{
+	 		width: 19.5%;
+	 	}
+	 	
+	 	.multi_column{
+	 		clear: both;
+	 	}
 
 	}
