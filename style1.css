@@ -12,6 +12,10 @@ body {
 h1, h2 {
 	font-family: "Griffy", Arial, sans-serif;
 	}
+h4{
+	opacity: 0;
+	display: inline;
+}
 
 /*--------this section deals with main navigation of website----------------*/	
 nav{
@@ -179,6 +183,9 @@ article img{
 			padding-bottom: 1%;
 			background: orange;
 	 	}
+	 	h4{
+	 		display: none;
+	 	}
 		
 		#tagline p{
 			font-size: .5em;
@@ -239,6 +246,11 @@ article img{
 		
 		h3{
 			display: none;
+		}
+		
+		h4{
+			opacity: 1;
+			display: block;
 		}
 		
 		.imagegallery{
@@ -319,6 +331,11 @@ article img{
 		
 		h3{
 			display: none;
+		}
+		
+		h4{
+			opacity: 1;
+			display: block;
 		}
 		
 		.imagegallery{
