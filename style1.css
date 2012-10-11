@@ -183,9 +183,25 @@ article img{
 	 		padding-right: 0;
 	 		margin-right: 1%;	 	
 	 	}
-	
+	}
 	/* Mobile landscape size to tablet portrait (devices and browsers)*/
 	@media only screen (min-width: 480px) and (max-width: 767px){
+		header{
+			font-size: 2em;
+			text-align: center;
+			color: black;
+		}
+		
+		h1{
+			padding-top: 5%;
+			padding-bottom: 1%;
+			background: orange;
+	 	}
+		
+		#tagline p{
+			font-size: .5em;
+			background-color: black;
+		}
 	
 	}
 	
