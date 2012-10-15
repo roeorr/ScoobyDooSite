@@ -40,7 +40,7 @@ nav{
 	margin-bottom: 2%; /* 4px/200px */
 	border-radius: 10%;
 	background-size: 200px 35px;
-	background-image:  url(images/nav_list_gradient.jpg);
+	background-image:  url(../images/nav_list_gradient.jpg);
 }
 
 /*---------This section deals with the style of the anchors----------*/	
@@ -86,7 +86,7 @@ h1 {
 	padding-left: 1.770833%; /* 17px/960px*/
 	padding-bottom: 0%;
 	margin: 0%;
-	background: orange url(images/scooby_shaggy_fred.jpg) no-repeat center;
+	background: orange url(../images/scooby_shaggy_fred.jpg) no-repeat center;
 }
 
 h3 {
