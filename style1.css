@@ -9,7 +9,7 @@ body {
  	 max-width: 960px;
 	}
 	
-h1, h2 {
+h1, h2, th {
 	font-family: "Griffy", Arial, sans-serif;
 	}
 h4{
@@ -168,6 +168,26 @@ article img{
 	column-gap: 10px;
 	text-align: left;
 }
+
+/*----------------- Table---------------------*/
+
+table{
+	border-collapse: collapse;
+	width: 50%;
+}
+
+th{
+	text-align: left;
+	border: 1px #000 solid;	
+	background: green;
+}
+
+td{
+	color: orange;
+	border: 1px green solid;	
+	background: #000;
+}
+
 /*--------------- Media Querries------------*/
 
 	/* Tablet portrait style to standard 960 (devices and browsers) */
