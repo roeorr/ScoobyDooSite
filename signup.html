@@ -37,7 +37,7 @@
 		  
 		  <h2>Sign Up For ScoobyNews</h2>
 		  
-		  <form method="post" action="signup.html">
+		  <form method="get" action="signup.html">
 		  
 		  	<div>
 		  		<label for="First_Name">First Name</label>
@@ -55,11 +55,28 @@
 		  	</div>
 		  	
 		  	<div>
+		  		<label for="Favorite_Guy">Who's Your Favorite Character?</label>
+		  	</div>
+		  	
+		  	<div>
+		  		<select name="Favorite_Guy" id="Favorite_Guy">
+		  			<option>All of Them!</option>
+		  			<option>ScoobyDoo</option>
+		  			<option>Shaggy Rogers</option>
+		  			<option>Fred Jones</option>
+		  		</select>
+		  	</div>
+		  	
+		  	<div>
 		  		<input type="checkbox" name="ScoobyNews_Agreement"
 		  		id="ScoobyNews_Agreement"/>
 		  		<label for="ScoobyNews_Agreement">I agree that you can send me emails
 		  		regarding ScoobyNews in the future.</label>
 		  	</div>
+		  	
+		  	<input type="submit"/>
+		  	
+		  </form>
 			
 		  </section>	
 		<footer>
