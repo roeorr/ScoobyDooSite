@@ -192,6 +192,35 @@ td{
 	background: #000;
 }
 
+/*---------------Form----------------------*/
+
+form{
+	font: 1em "Montserrat Alternates", Griffy, Verdana, sans-serif;
+	color: green;
+	border: 2px solid green;
+	background: #000;
+	width: 85%;
+	padding: .3em 1em;
+	display: block;
+}
+
+input{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.agreement{
+	float: left;
+}
+
+.submit_button{
+	clear: both;
+	font-family: "Montserrat Alternates", Griffy, Verdana, sans-serif;
+	background: green;
+	border: #000;
+	height: 30px;
+}
+
 /*--------------- Media Querries------------*/
 
 	/* Tablet portrait style to standard 960 (devices and browsers) */
