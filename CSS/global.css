@@ -210,6 +210,7 @@ input{
 }
 
 .agreement{
+	width: 2%;
 	float: left;
 }
 
@@ -333,6 +334,16 @@ input{
 	 		width: 60%;
 	 		margin-left: 3%;
 	 	}
+	 	
+	 	form{
+	 		width: 93%;
+	 		margin: 0 auto;
+	 	}
+	 	
+	 	input{
+	 		width: 98%;
+	 	}
+	 		
 	
 	}
 	
@@ -427,6 +438,15 @@ input{
 	 	table{
 	 		width: 80%;
 	 		margin-left: 3%;
+	 	}
+	 	
+	 	form{
+	 		width: 90%;
+	 		margin: 0 auto;
+	 	}
+	 	
+	 	input{
+	 		width: 98%;
 	 	}
 
 	}
